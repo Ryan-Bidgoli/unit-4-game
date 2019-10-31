@@ -61,5 +61,29 @@ $("#stone2").on("click", function() {
               checkifwon();
           }
 });
+   
+$("#stone3").on("click", function() {
   
+          score = score + stone3;
+          $("#score").html(score);
+          console.log("score3 " + score);
+          if (score == computerGuess) {
+              checkifwon();
+          }else if (score > computerGuess) {
+              checkifwon();
+          }
+});
+
+$("#stone4").on("click", function() {
+  
+          score = score + stone4;
+          $("#score").html(score);
+          console.log("score4 " + score);
+          if (score == computerGuess) {
+              checkifwon();
+          }else if (score > computerGuess) {
+              checkifwon();
+          }
+});
+
 });
