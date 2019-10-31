@@ -49,4 +49,17 @@ $("#stone1").on("click", function() {
 
 });
 
+   
+$("#stone2").on("click", function() {
+  
+          score = score + stone2;
+          $("#score").html(score);
+          console.log("score2 " + score);
+          if (score == computerGuess) {
+              checkifwon();
+          }else if (score > computerGuess) {
+              checkifwon();
+          }
+});
+  
 });
