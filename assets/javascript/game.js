@@ -14,5 +14,18 @@ var stone2 = parseInt(Math.floor(Math.random() * 12) + 1);
 var stone3 = parseInt(Math.floor(Math.random() * 12) + 1);
 var stone4 = parseInt(Math.floor(Math.random() * 12) + 1);
 
+  $(document).ready(function() {
+ 
+
+ 
+console.log("computerGuess" + computerGuess);
+console.log("stone1 " + stone1);
+console.log("stone2 " + stone2);
+console.log("stone3 " + stone3);
+console.log("stone4 " + stone4);
+
+ 
+  
+});
 
 });
