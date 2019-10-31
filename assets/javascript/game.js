@@ -34,6 +34,18 @@ console.log("stone4 " + stone4);
   stone3 = parseInt(Math.floor(Math.random() * 12) + 1);
   stone4 = parseInt(Math.floor(Math.random() * 12) + 1);
   }
+  
+
+$("#stone1").on("click", function() {
+  
+          score = score + stone1;
+          $("#score").html(score);
+          console.log("score1 " + score);
+          if (score == computerGuess) {
+              checkifwon();
+          }else if (score > computerGuess) {
+              checkifwon();
+          }
 
 });
 
