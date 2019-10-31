@@ -53,3 +53,21 @@
   width: 80px;
   height: 80px;
 }
+
+
+
+.score{
+  
+  background-color: cadetblue;
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 25px;
+}
+
+.scoreCount {
+  
+  background-color: cadetblue;
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 100px;
+}
